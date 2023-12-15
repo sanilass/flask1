@@ -1,0 +1,106 @@
+/* Reset some default styles and apply a basic styling to the body */
+body {
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style for the sidebar */
+.sidebar {
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111; /* Cor de fundo da barra lateral */
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* Estilizando os links na barra lateral */
+.sidebar a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+/* Mudar a cor do texto dos links ao passar o mouse */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.menu {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilizando o conteúdo da página */
+.content-container {
+  display: flex;
+  align-items: center;
+  width: 70%; /* Ajuste a largura conforme necessário */
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  }
+  
+  .content {
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 70%; /* Ajuste a largura conforme necessário */
+    max-width: 600px; /* Defina a largura máxima conforme necessário */
+  }
+  
+
+.descritor {
+  color: white;
+}
+
+.imagecontent {
+  width: 300px; /* Largura desejada para as imagens */
+  height: auto;
+  margin: 0 auto;
+}
+
+.imagecontentmover {
+  width: 30px; /* Ajuste a largura conforme necessário */
+  height: auto;
+  margin-left: 10px; /* Ajuste a margem conforme necessário */
+  cursor: pointer; /* Adicione um cursor para indicar que é clicável */
+}
+
+#content2 {
+  display: none;
+}
+
+#content3 {
+  display: none;
+}
+
+/* Adicionando um pouco de estilo ao corpo da página */
+body {
+  background-color: #29c5f6;
+}
+
+/* Adicionando as cores iniciais */
+#content1 {
+  background-color: #125fcc81;
+}
+
+#content2 {
+  background-color: #FACA0F;
+  display: none;
+}
+
+#content3 {
+  background-color: #ff002674;
+  display: none;
+}
